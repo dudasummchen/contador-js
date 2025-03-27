@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.retangulo{
+    background-color:rgb(240, 84, 167);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mais{
+    width: 150px;
+    height: 207px;
+    font-size: 95px;
+    background-color: aquamarine;
+}
+button{
+    cursor: pointer;
+    transition: opacity 0.4s;
+ 
+}
+.menos{
+    width: 150px;
+    height: 207px;
+    font-size: 97px;
+    background-color: aquamarine;
+ 
+}
+.valor{
+    font-family: Arial, Helvetica, sans-serif;
+   font-size: 180px;
+   color: white;
+   min-width: 200px;
+   text-align: center;
+}
